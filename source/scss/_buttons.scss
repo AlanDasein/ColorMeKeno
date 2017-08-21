@@ -1,0 +1,26 @@
+button.active {background-position-y: $hg-button;}
+
+.large {width: $wd-button-large;}
+.medium {width: $wd-button-medium;}
+.small {width: $wd-button-small;}
+
+.button-quickpick {background: $bg-button-quickpick;}
+.button-clearall {background: $bg-button-clearall;}
+
+.button-start {background: $bg-button-start;}
+.button-auto {background: $bg-button-auto;}
+
+.button-gamehelp {background: $bg-button-gamehelp;}
+.button-payouts {background: $bg-button-payouts;}
+.button-options {background: $bg-button-options;}
+
+.button-betone {background: $bg-button-betone;}
+.button-betmax {background: $bg-button-betmax;}
+
+.button-up {background: $bg-button-up;}
+.button-down {background: $bg-button-down;}
+
+.button-back {
+  background: $bg-button-back;
+  height: $hg-button-back;
+}

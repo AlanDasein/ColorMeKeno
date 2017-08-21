@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "module": "none",
+    "target": "es5",
+    "sourceRoot": "/Applications/XAMPP/htdocs/user/Games/Keno/Color Me Keno/source/ts/",
+    "outFile": "/Applications/XAMPP/htdocs/user/Games/Keno/Color Me Keno/files/js/scripts.js",
+    "sourceMap": false,
+    "removeComments": true
+  },
+  "files": [
+    "Setup.ts",
+    "dom/abstract/Component.ts",
+    "dom/Layout.ts",
+    "Dom.ts",
+    "Game.ts",
+    "Main.ts"
+  ],
+  "exclude": [
+    "node_modules"
+  ]
+}

@@ -1,0 +1,51 @@
+.section-paytable {
+  background: $bg-section-paytable;
+  width: $wd-section-paytable;
+  height: $hg-section-paytable;
+  left: $lf-section-paytable;
+  top: $tp-section-paytable;
+}
+
+.section-balls {
+  background: $bg-section-balls;
+  width: $wd-section-balls;
+  height: $hg-section-balls;
+  left: $lf-section-balls;
+  top: $tp-section-balls;
+}
+
+.section-buttons {
+  background: $bg-section-buttons;
+  width: $wd-section-buttons - $pdl-section-buttons;
+  height: $hg-section-buttons - $pdt-section-buttons;
+  left: $lf-section-buttons;
+  top: $tp-section-buttons;
+  padding: $pdt-section-buttons 0 0 $pdl-section-buttons;
+  button {margin-left: $mg-section-buttons-button;}
+}
+
+.section-info {
+  background: $bg-section-info;
+  width: $wd-section-info;
+  height: $hg-section-info;
+  left: $lf-section-info;
+  top: $tp-section-info;
+}
+
+.section-help {
+  font-weight: normal;
+  color: $cl-gray-light;
+}
+
+.section-payouts {
+  background: $bg-section-payouts;
+  width: $wd-section-payouts;
+  height: $hg-section-payouts;
+  left: $lf-section-payouts;
+  top: $tp-section-payouts;
+}
+
+.section-nav {
+  right: $rg-section-nav;
+  top: $tp-section-nav;
+}

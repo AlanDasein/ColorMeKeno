@@ -1,0 +1,19 @@
+.radio {
+  background: $bg-radio no-repeat;
+  width: auto;
+  height: $hg-radio;
+  margin-bottom: $mg-radio;
+  padding: $pd-radio;
+  &.small {margin: $mg-radio-small;}
+  &.xsmall {
+    margin: $mg-radio-xsmall;
+    &:first-of-type, &:last-of-type {margin-left: $mg-radio-xsmall-corners;}
+  }
+  &.large {margin-right: $mg-radio-large;}
+  &.active {background-position-y: -($hg-radio + 2);}
+}
+
+.input {
+  margin-top: $mg-input-wrapper;
+  font-size: $ft-input;
+}

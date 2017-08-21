@@ -1,0 +1,313 @@
+<main>
+
+    <section class="panel-main">
+
+        <section class="section-paytable">
+
+            <section class="block-paytable-items">
+
+                <span class="item">
+                    <span class="left">5</span>
+                    <span class="right">5</span>
+                </span>
+
+                <span class="item active">
+                    <span class="left">6</span>
+                    <span class="right">24</span>
+                </span>
+
+                <span class="item">
+                    <span class="left">7</span>
+                    <span class="right">144</span>
+                </span>
+
+                <span class="item">
+                    <span class="left">8</span>
+                    <span class="right">1000</span>
+                </span>
+
+                <span class="item">
+                    <span class="left">9</span>
+                    <span class="right">4500</span>
+                </span>
+
+                <span class="item">
+                    <span class="left">10</span>
+                    <span class="right">10000</span>
+                </span>
+
+            </section>
+
+            <section class="block-paytable-buttons">
+                <button class="large button-quickpick"></button>
+                <button class="large button-clearall"></button>
+            </section>
+
+        </section>
+
+        <section class="section-balls">
+
+            <section class="block-balls-messages text-centered">PLACE BET OR TOUCH START TO BEGIN</section>
+
+            <section class="block-balls-grid">
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral active"></span>
+                <span class="ball neutral active"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral active"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral active"></span>
+                <span class="ball neutral active"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+                <span class="ball neutral"></span>
+
+            </section>
+
+        </section>
+
+        <section class="section-buttons">
+            <button class="small button-betmax"></button>
+            <button class="small button-betone"></button>
+            <button class="medium button-auto"></button>
+            <button class="medium button-start"></button>
+        </section>
+
+        <section class="section-info">
+
+            <div class="label-info-credits">10000</div>
+            <div class="label-info-marked">1</div>
+            <div class="label-info-bet">10</div>
+            <div class="label-info-match">3</div>
+            <div class="label-info-win">80000</div>
+
+            <section class="block-info-buttons">
+                <button class="large button-gamehelp"></button>
+                <button class="large button-payouts"></button>
+                <button class="large button-options"></button>
+            </section>
+
+        </section>
+
+    </section>
+
+    <section class="panel-various hide">
+
+        <section class="section-help">
+
+            <section class="block-help-paneltop text-justified">
+                To play <label>COLORME KENO</label> select between 2 and 10 balls from the group of 80 balls located on the board. Once the game begins, each ball will be given a color from a set of 5 different colors. These 5 colors will be evenly distributed among the 80 balls. That is, each color will be present in 16 balls after all the balls have been "colored". The goal is to gather as many colors as possible in the set of selected balls. Wins are based on the number of balls selected, the largest number of balls of the same color achieved and the number of credits bet.
+            </section>
+
+            <section class="block-help-panelbottom">
+                <div class="label-help-start">Press this button to start the game at<br/>the current bet</div>
+                <div class="label-help-quickpick">Press this button to automatically select random balls</div>
+                <div class="label-help-auto">Press this button to play several games<br/>at the current bet</div>
+                <div class="label-help-clearall">Press this button to clear any balls selected</div>
+                <div class="label-help-bets">Press these buttons to increase the bet by one or to bet the maximum amount of credits allowed respectively</div>
+                <div class="label-help-extra text-justified">
+                    Visit the options panel to adjust the game according your preferences. The available options for customization are Quickpick, Autoplay, Maxbet, Audio and Speed. Likewise, the Payouts panel shows the winnings for each selection that can be made according the number of matches achieved.
+                </div>
+            </section>
+
+        </section>
+
+        <section class="section-payouts hide">
+
+            <table class="text-centered">
+                <tr>
+                    <td>1</td>
+                    <td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td>
+                </tr>
+                <tr>
+                    <td>2</td>
+                    <td>15</td><td>2</td><td>2</td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td><hr/></td><td>48</td><td>5</td><td>3</td><td>3</td><td>1</td><td><hr/></td><td><hr/></td><td><hr/></td>
+                </tr>
+                <tr>
+                    <td>4</td>
+                    <td><hr/></td><td><hr/></td><td>100</td><td>13</td><td>4</td><td>2</td><td>2</td><td>1</td><td><hr/></td>
+                </tr>
+                <tr>
+                    <td>5</td>
+                    <td><hr/></td><td><hr/></td><td><hr/></td><td>838</td><td>75</td><td>22</td><td>13</td><td>6</td><td>5</td>
+                </tr>
+                <tr>
+                    <td>6</td>
+                    <td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td>1660</td><td>422</td><td>100</td><td>44</td><td>24</td>
+                </tr>
+                <tr>
+                    <td>7</td>
+                    <td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td>7000</td><td>1670</td><td>362</td><td>144</td>
+                </tr>
+                <tr>
+                    <td>8</td>
+                    <td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td>10000</td><td>4700</td><td>1000</td>
+                </tr>
+                <tr>
+                    <td>9</td>
+                    <td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td>10000</td><td>4500</td>
+                </tr>
+                <tr>
+                    <td>10</td>
+                    <td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td><hr/></td><td>10000</td>
+                </tr>
+            </table>
+
+            <section class="block-payouts-buttons">
+                <button class="small button-down"></button>
+                <button class="small button-up"></button>
+            </section>
+
+        </section>
+
+        <section class="section-options hide">
+
+            <section class="block-options-quickpick">
+
+                <span value="0" class="radio active">Remember last selection or</span>
+                <span value="1" class="radio">Select always this number of spots:</span>
+
+                <span value="2" class="radio left small">2</span>
+                <span value="3" class="radio left small">3</span>
+                <span value="4" class="radio left small">4</span>
+                <span value="5" class="radio left small">5</span>
+                <span value="6" class="radio left small">6</span>
+                <span value="7" class="radio left small">7</span>
+                <span value="8" class="radio left small">8</span>
+                <span value="9" class="radio left small">9</span>
+                <span value="10" class="radio left small active">10</span>
+
+            </section>
+
+            <section class="block-options-autoplay">
+
+                <span value="0" class="radio active">Stop manually or</span>
+                <span value="1" class="radio">Stop after specific number of plays or</span>
+                <span value="2" class="radio">Stop when credits bellow or above specific range</span>
+
+                <span class="input">
+                    <label>Plays / Min Credit / Max Credit</label>
+                    <input value="100" class="text-centered" />
+                    <input value="0" class="text-centered" />
+                    <input value="2000" class="text-centered" />
+                </span>
+
+            </section>
+
+            <section class="block-options-maxbet">
+
+                <span value="2" class="radio left large">2</span>
+                <span value="4" class="radio left large active">4</span>
+                <span value="5" class="radio left large">5</span>
+                <span value="6" class="radio left large">6</span>
+                <span value="8" class="radio left large">8</span>
+                <span value="10" class="radio left large">10</span>
+
+            </section>
+
+            <section class="block-options-audio">
+
+                <span value="0" class="radio xsmall">Off</span>
+                <span value="1" class="radio xsmall active">Low</span>
+                <span value="2" class="radio xsmall">High</span>
+
+            </section>
+
+            <section class="block-options-speed">
+
+                <span value="0" class="radio xsmall">Slow</span>
+                <span value="1" class="radio xsmall active">Fast</span>
+                <span value="2" class="radio xsmall">Ultra</span>
+
+            </section>
+
+        </section>
+
+        <section class="section-nav"><button class="small button-back"></button></section>
+
+    </section>
+
+</main>
+
+<a href="https://www.facebook.com/allcrossword/" target="_blank" class="text-centered">DO YOU LIKE THIS GAME? CLIC HERE TO CONTACT ME</a>

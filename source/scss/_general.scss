@@ -1,0 +1,82 @@
+html {
+  background: $bg-page;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body {
+  zoom: $page-zoom;
+  margin: $page-margin;
+  font: $base-font;
+  color: $cl-gray;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+section, div {position: absolute;}
+span {display: block;}
+
+* {outline: none;}
+
+main {
+  background: $bg-main;
+  position: relative;
+  width: $wd-main;
+  height: $hg-main;
+  margin: auto;
+}
+
+button {
+  height: $hg-button;
+  border: none;
+}
+
+button:not(.active):active {
+  transform: scale(1, $scale-button);
+  -webkit-transform: scale(1, $scale-button);
+  -moz-transform: scale(1, $scale-button);
+  -ms-transform: scale(1, $scale-button);
+  -o-transform: scale(1, $scale-button);
+}
+
+table {
+  width: $wd-table;
+  margin: $mg-table;
+  border-spacing: 0;
+}
+
+td {
+  width: $wd-cells;
+  padding: $pd-cells;
+}
+
+td:first-child {
+  width: $wd-cells-first;
+  color: $cl-white;
+}
+
+hr {width: $wd-rule;}
+
+input {
+  background: $bg-input;
+  width: $wd-input;
+  height: $hg-input;
+  margin: $mg-input;
+  border: none;
+  font: inherit;
+  color: inherit;
+  -webkit-box-shadow: none;
+  -moz-box-shadow: none;
+  box-shadow: none;
+}
+
+a {
+  display: block;
+  margin: 10px;
+}

@@ -1,0 +1,258 @@
+/******* BASE CONFIG *******/
+
+// PALETTE
+$cl-gray: #909090;
+$cl-gray-light: darken($cl-gray, 5%);
+$cl-white: lighten($cl-gray, 100%);
+$cl-gold: #aaa38f;
+$cl-gold-dark: darken($cl-gold, 10%);
+$cl-red: #f43712;
+
+// GLOBAL
+$page-zoom: 85%;
+$page-margin: 25px;
+$base-font-size: 15px;
+$base-font-family: "Open Sans Condensed";
+$base-font: bold $base-font-size $base-font-family;
+
+/******* LOCATION *******/
+
+// GLOBAL
+$lf-panel-various: 13px;
+$tp-panel-various: 98px;
+
+// SECTIONS
+$lf-section-paytable: 14px;
+$lf-section-balls: 199px;
+$lf-section-buttons: 200px;
+$lf-section-info: 614px;
+$lf-section-payouts: 13px;
+$rg-section-nav: 8px;
+$tp-section-paytable: 98px;
+$tp-section-balls: 98px;
+$tp-section-buttons: 475px;
+$tp-section-info: 98px;
+$tp-section-payouts: 13px;
+$tp-section-nav: 393px;
+$mg-section-buttons-button: 2px;
+
+// BLOCKS
+$lf-block-paytable-items: 17px;
+$lf-block-paytable-buttons: 17px;
+$lf-block-balls-messages: 12px;
+$lf-block-balls-grid: 14px;
+$lf-block-info-buttons: 17px;
+$lf-block-help-paneltop: 12px;
+$lf-block-help-panelbottom: 13px;
+$lf-block-options-quickpick: 14px;
+$lf-block-options-autoplay: 365px;
+$lf-block-options-maxbet: 365px;
+$lf-block-options-audio: 14px;
+$lf-block-options-speed: 190px;
+$rg-block-payouts-buttons: 73px;
+$tp-block-paytable-items: 93px;
+$tp-block-balls-messages: 9px;
+$tp-block-balls-grid: 49px;
+$tp-block-info-buttons: 298px;
+$tp-block-help-paneltop: 13px;
+$tp-block-help-panelbottom: 124px;
+$tp-block-payouts-buttons: 379px;
+$tp-block-options-quickpick: 12px;
+$tp-block-options-autoplay: 12px;
+$tp-block-options-maxbet: 249px;
+$tp-block-options-audio: 249px;
+$tp-block-options-speed: 249px;
+$bt-block-paytable-buttons: 11px;
+
+// LABELS
+$lf-label-info-marked: 35px;
+$lf-label-info-match: 36px;
+$lf-label-help-start: 139px;
+$lf-label-help-quickpick: 550px;
+$lf-label-help-auto: 139px;
+$lf-label-help-clearall: 550px;
+$lf-label-help-bets: 171px;
+$lf-label-help-extra: 3px;
+$lf-label-block-payouts-buttons: -519px;
+$rg-label-info-credits: 26px;
+$rg-label-info-bet: 26px;
+$rg-label-info-win: 23px;
+$tp-label-info-credits: 102px;
+$tp-label-info-marked: 185px;
+$tp-label-info-bet: 185px;
+$tp-label-info-match: 267px;
+$tp-label-info-win: 267px;
+$tp-label-help-start: 12px;
+$tp-label-help-quickpick: 12px;
+$tp-label-help-auto: 62px;
+$tp-label-help-clearall: 62px;
+$tp-label-help-bets: 124px;
+$tp-label-help-extra: 175px;
+$tp-label-block-payouts-buttons: 16px;
+
+// BALLS
+$mg-balls: 0 1px -5px 0;
+
+// ELEMENTS
+$mg-table: 40px 0 0 2px;
+$mg-input: -8px 0 5px 3px;
+$mg-input-wrapper: 10px;
+$mg-radio: 7px;
+$mg-radio-small: 0 0 4px 19px;
+$mg-radio-xsmall: 0 0 -4px -1px;
+$mg-radio-xsmall-corners: -9px;
+$mg-radio-large: 19px;
+$mg-item: 2px;
+$mg-item-span-left: 10px 0 0 16px;
+$mg-item-span-right: 10px 20px 0 0;
+$mg-item-active: -2px 0 3px 0;
+$mg-item-active-span: 13px;
+$mg-block-info-buttons-button: -1px;
+
+/******* DIMENSIONS *******/
+
+// GLOBAL
+$wd-main: 807px;
+$wd-panel-various: 783px;
+$hg-main: 556px;
+$hg-panel-various: 382px;
+
+// SECTIONS
+$wd-section-paytable: 182px;
+$wd-section-balls: 413px;
+$wd-section-buttons: 413px;
+$wd-section-info: 182px;
+$wd-section-payouts: 757px;
+$hg-section-paytable: 445px;
+$hg-section-balls: 376px;
+$hg-section-buttons: 67px;
+$hg-section-info: 445px;
+$hg-section-payouts: 355px;
+
+// BLOCKS
+$wd-block-paytable-items: 156px;
+$wd-block-balls-messages: 392px;
+$wd-block-balls-grid: 392px;
+$wd-block-help-paneltop: 760px;
+$wd-block-help-panelbottom: 759px;
+$wd-block-options-quickpick: 347px;
+$wd-block-options-autoplay: 407px;
+$wd-block-options-maxbet: 407px;
+$wd-block-options-audio: 172px;
+$wd-block-options-speed: 172px;
+$hg-block-balls-messages: 39px;
+$hg-block-balls-grid: 315px;
+$hg-block-help-paneltop: 106px;
+$hg-block-help-panelbottom: 243px;
+$hg-block-options-quickpick: 235px;
+$hg-block-options-autoplay: 235px;
+$hg-block-options-maxbet: 119px;
+$hg-block-options-audio: 119px;
+$hg-block-options-speed: 119px;
+
+// BUTTONS
+$wd-button-large: 155px;
+$wd-button-medium: 118px;
+$wd-button-small: 74px;
+$hg-button: 46px;
+$hg-button-back: 44px;
+
+// BALLS
+$wd-balls: 38px;
+$hg-balls: 40px;
+
+// ELEMENTS
+$wd-table: 756px;
+$wd-cells: 77px;
+$wd-cells-first: 71px;
+$wd-rule: 50%;
+$wd-input: 59px;
+$wd-item-span: 20px;
+$hg-input: 26px;
+$hg-radio: 26px;
+$hg-item: 39px;
+$hg-item-active: 44px;
+
+/******* BACKGROUNDS *******/
+
+// GLOBAL
+$bg-page: url("../assets/img/background.jpg");
+$bg-main: url("../assets/img/layout-common.png");
+$bg-panel-various: url("../assets/img/layout-various-common.png");
+
+// SECTIONS
+$bg-section-paytable: url("../assets/img/layout-main-paytable.png");
+$bg-section-balls: url("../assets/img/layout-main-balls.png");
+$bg-section-buttons: url("../assets/img/layout-main-buttons.png");
+$bg-section-info: url("../assets/img/layout-main-info.png");
+$bg-section-payouts: url("../assets/img/layout-various-payouts.png");
+
+// BLOCKS
+$bg-block-balls-messages: url("../assets/img/layout-main-balls-messages.png");
+$bg-block-help-paneltop: url("../assets/img/layout-various-help-paneltop.png");
+$bg-block-help-panelbottom: url("../assets/img/layout-various-help-panelbottom.png");
+$bg-block-options-quickpick: url("../assets/img/layout-various-options-quickpick.png");
+$bg-block-options-autoplay: url("../assets/img/layout-various-options-autoplay.png");
+$bg-block-options-maxbet: url("../assets/img/layout-various-options-maxbet.png");
+$bg-block-options-audio: url("../assets/img/layout-various-options-audio.png");
+$bg-block-options-speed: url("../assets/img/layout-various-options-speed.png");
+
+// BUTTONS
+$bg-button-quickpick: url("../assets/img/button-quickpick.png");
+$bg-button-clearall: url("../assets/img/button-clearall.png");
+$bg-button-start: url("../assets/img/button-start.png");
+$bg-button-auto: url("../assets/img/button-auto.png");
+$bg-button-gamehelp: url("../assets/img/button-gamehelp.png");
+$bg-button-payouts: url("../assets/img/button-payouts.png");
+$bg-button-options: url("../assets/img/button-options.png");
+$bg-button-betone: url("../assets/img/button-betone.png");
+$bg-button-betmax: url("../assets/img/button-betmax.png");
+$bg-button-up: url("../assets/img/button-up.png");
+$bg-button-down: url("../assets/img/button-down.png");
+$bg-button-back: url("../assets/img/button-back.png");
+
+// BALLS
+$bg-ball-neutral: url("../assets/img/balls-neutral.png");
+$bg-ball-blue: url("../assets/img/balls-blue.png");
+$bg-ball-green: url("../assets/img/balls-green.png");
+$bg-ball-pink: url("../assets/img/balls-pink.png");
+$bg-ball-red: url("../assets/img/balls-red.png");
+$bg-ball-yellow: url("../assets/img/balls-yellow.png");
+
+// ELEMENTS
+$bg-input: url("../assets/img/box-input.png");
+$bg-radio: url("../assets/img/box-radio.png");
+$bg-item: url("../assets/img/item.png");
+
+/******* MISC *******/
+
+// sections
+$pdl-section-buttons: 10px;
+$pdt-section-buttons: 11px;
+
+// BlOCKS
+$pd-block-balls-messages: 11px;
+$pd-radio: 4px 0 0 30px;
+$pdl-block-options-quickpick: 30px;
+$pdl-block-options-autoplay: 30px;
+$pdl-block-options-maxbet: 40px;
+$pdl-block-options-audio: 95px;
+$pdl-block-options-speed: 95px;
+$pdlr-block-help-paneltop: 10px;
+$pdt-block-help-paneltop: 8px;
+$pdt-block-options-quickpick: 73px;
+$pdt-block-options-autoplay: 73px;
+$pdt-block-options-maxbet: 71px;
+$pdt-block-options-audio: 23px;
+$pdt-block-options-speed: 23px;
+$pdb-block-help-paneltop: 12px;
+
+// LABELS
+$pd-label-help-extra: 8px 8px 0 12px;
+$ft-label-block-payouts-buttons: 110%;
+
+// BUTTONS
+$scale-button: .9;
+$pd-cells: 7px 0;
+$ft-block-balls-messages: bold 18px "Bungee Outline";
+$ft-input: 75%;

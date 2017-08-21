@@ -1,0 +1,14 @@
+.ball {
+  display: inline-block;
+  width: $wd-balls;
+  height: $hg-balls;
+  margin: $mg-balls;
+  &.active {background-position-y: $hg-balls + 1;}
+}
+
+.neutral {background: $bg-ball-neutral;}
+.blue {background: $bg-ball-blue;}
+.green {background: $bg-ball-green;}
+.pink {background: $bg-ball-pink;}
+.red {background: $bg-ball-red;}
+.yellow {background: $bg-ball-yellow;}

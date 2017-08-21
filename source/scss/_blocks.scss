@@ -1,0 +1,131 @@
+.block-paytable-items {
+  width: $wd-block-paytable-items;
+  left: $lf-block-paytable-items;
+  top: $tp-block-paytable-items;
+  .item {
+    background: $bg-item;
+    width: 100%;
+    height: $hg-item;
+    margin-bottom: $mg-item;
+    span.left {
+      width: $wd-item-span;
+      margin: $mg-item-span-left;
+    }
+    span.right {margin: $mg-item-span-right;}
+    &.active {
+      background-position-y: $hg-item + 6;
+      height: $hg-item-active;
+      margin: $mg-item-active;
+      font-size: $base-font-size + 2;
+      color: $cl-white;
+      span.right, span.left {margin-top: $mg-item-active-span;}
+    }
+  }
+}
+
+.block-paytable-buttons {
+  left: $lf-block-paytable-buttons;
+  bottom: $bt-block-paytable-buttons;
+}
+
+.block-balls-messages {
+  background: $bg-block-balls-messages;
+  width: $wd-block-balls-messages;
+  height: $hg-block-balls-messages - $pd-block-balls-messages;
+  left: $lf-block-balls-messages;
+  top: $tp-block-balls-messages;
+  padding-top: $pd-block-balls-messages;
+  font: $ft-block-balls-messages;
+  color: $cl-gold;
+  &.active {color: $cl-red;}
+}
+
+.block-balls-grid {
+  width: $wd-block-balls-grid;
+  height: $hg-block-balls-grid;
+  left: $lf-block-balls-grid;
+  top: $tp-block-balls-grid;
+}
+
+.block-info-buttons {
+  left: $lf-block-info-buttons;
+  top: $tp-block-info-buttons;
+  button {margin-top: $mg-block-info-buttons-button;}
+}
+
+
+.block-help-paneltop {
+  background: $bg-block-help-paneltop;
+  width: $wd-block-help-paneltop - ($pdlr-block-help-paneltop * 2);
+  height: $hg-block-help-paneltop - $pdt-block-help-paneltop - $pdb-block-help-paneltop;
+  left: $lf-block-help-paneltop;
+  top: $tp-block-help-paneltop;
+  padding: $pdt-block-help-paneltop $pdlr-block-help-paneltop $pdb-block-help-paneltop $pdlr-block-help-paneltop;
+  label {
+    font-weight: bold;
+    color: $cl-gold-dark;
+  }
+}
+
+.block-help-panelbottom {
+  background: $bg-block-help-panelbottom;
+  width: $wd-block-help-panelbottom;
+  height: $hg-block-help-panelbottom;
+  left: $lf-block-help-panelbottom;
+  top: $tp-block-help-panelbottom;
+}
+
+.block-payouts-buttons {
+  right: $rg-block-payouts-buttons;
+  top: $tp-block-payouts-buttons;
+  div {
+    left: $lf-label-block-payouts-buttons;
+    top: $tp-label-block-payouts-buttons;
+    font-size: $ft-label-block-payouts-buttons;
+  }
+}
+
+.block-options-quickpick {
+  background: $bg-block-options-quickpick;
+  width: $wd-block-options-quickpick - $pdl-block-options-quickpick;
+  height: $hg-block-options-quickpick - $pdt-block-options-quickpick;
+  left: $lf-block-options-quickpick;
+  top: $tp-block-options-quickpick;
+  padding: $pdt-block-options-quickpick 0 0 $pdl-block-options-quickpick;
+}
+
+.block-options-autoplay {
+  background: $bg-block-options-autoplay;
+  width: $wd-block-options-autoplay - $pdl-block-options-autoplay;
+  height: $hg-block-options-autoplay - $pdt-block-options-autoplay;
+  left: $lf-block-options-autoplay;
+  top: $tp-block-options-autoplay;
+  padding: $pdt-block-options-autoplay 0 0 $pdl-block-options-autoplay;
+}
+
+.block-options-maxbet {
+  background: $bg-block-options-maxbet;
+  width: $wd-block-options-maxbet - $pdl-block-options-maxbet;
+  height: $hg-block-options-maxbet - $pdt-block-options-maxbet;
+  left: $lf-block-options-maxbet;
+  top: $tp-block-options-maxbet;
+  padding: $pdt-block-options-maxbet 0 0 $pdl-block-options-maxbet;
+}
+
+.block-options-audio {
+  background: $bg-block-options-audio;
+  width: $wd-block-options-audio - $pdl-block-options-audio;
+  height: $hg-block-options-audio - $pdt-block-options-audio;
+  left: $lf-block-options-audio;
+  top: $tp-block-options-audio;
+  padding: $pdt-block-options-audio 0 0 $pdl-block-options-audio;
+}
+
+.block-options-speed {
+  background: $bg-block-options-speed;
+  width: $wd-block-options-speed - $pdl-block-options-speed;
+  height: $hg-block-options-speed - $pdt-block-options-speed;
+  left: $lf-block-options-speed;
+  top: $tp-block-options-speed;
+  padding: $pdt-block-options-speed 0 0 $pdl-block-options-speed;
+}
