@@ -6,16 +6,16 @@ class Setup {
 
     public static paytable: any = {
         values: {
-            match1: {spots3: 8, spots4: 42, spots5: 86},
-            match2: {spots2: 6, spots6: 6, spots8: 4},
-            match3: {spots3: 32, spots4: 2, spots7: 1},
-            match4: {spots4: 74, spots5: 3, spots6: 2, spots7: 1, spots8: 1, spots9: 1},
-            match5: {spots5: 388, spots6: 28, spots7: 14, spots8: 3, spots9: 2, spots10: 3},
-            match6: {spots6: 632, spots7: 156, spots8: 40, spots9: 20, spots10: 10},
-            match7: {spots7: 2400, spots8: 660, spots9: 118, spots10: 62},
-            match8: {spots8: 6000, spots9: 1600, spots10: 345},
-            match9: {spots9: 6300, spots10: 1500},
-            match10: {spots10: 8000}
+            match1: {spots4: 1, spots5: 7},
+            match2: {spots2: 5, spots3: 1, spots9: 2, spots10: 22},
+            match3: {spots3: 24, spots4: 2, spots6: 2, spots7: 1},
+            match4: {spots4: 60, spots5: 10, spots6: 6, spots7: 1, spots8: 1},
+            match5: {spots5: 590, spots6: 52, spots7: 15, spots8: 8, spots9: 4, spots10: 4},
+            match6: {spots6: 1480, spots7: 382, spots8: 84, spots9: 36, spots10: 18},
+            match7: {spots7: 7500, spots8: 1740, spots9: 398, spots10: 156},
+            match8: {spots8: 10000, spots9: 5400, spots10: 1200},
+            match9: {spots9: 10000, spots10: 7000},
+            match10: {spots10: 15000}
         },
         max: 6
     };
