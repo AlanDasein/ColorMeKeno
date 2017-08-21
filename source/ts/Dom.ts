@@ -54,12 +54,13 @@ class Dom {
         var index: number = -1;
         if(_val !== undefined) {
             for(let i = 0;i < Setup.paytable.max;i++) {
-                if(this.nodes["items"][i].childNodes[0].innerHTML === _val.toString()) {
-                    index = i;
-                    break;
-                }
+                this.modifier(this.nodes["items"][i], "active", false);
+                if(this.nodes["items"][i].childNodes[0].innerHTML === _val.toString() && index < 0) index = i;
             }
-            if(index >= 0) this.switcher(this.nodes["items"], index);
+            if(index >= 0) {
+
+                this.switcher(this.nodes["items"], index);
+            }
         }
     }
 
