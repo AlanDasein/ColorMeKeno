@@ -6,11 +6,11 @@ class Setup {
 
     public static paytable: any = {
         values: {
-            match1: {spots4: 1, spots5: 7},
+            match1: {spots4: 1, spots5: 7, spots9: 3, spots10: 13},
             match2: {spots2: 5, spots3: 1},
             match3: {spots3: 24, spots4: 2, spots6: 2, spots7: 1},
-            match4: {spots4: 60, spots5: 10, spots6: 6, spots7: 1, spots8: 1, spots9: 1},
-            match5: {spots5: 590, spots6: 52, spots7: 15, spots8: 8, spots9: 4, spots10: 4},
+            match4: {spots4: 60, spots5: 10, spots6: 6, spots7: 1, spots8: 1},
+            match5: {spots5: 590, spots6: 52, spots7: 15, spots8: 8, spots9: 4},
             match6: {spots6: 1480, spots7: 382, spots8: 84, spots9: 36, spots10: 18},
             match7: {spots7: 7500, spots8: 1740, spots9: 398, spots10: 156},
             match8: {spots8: 10000, spots9: 5400, spots10: 1200},
